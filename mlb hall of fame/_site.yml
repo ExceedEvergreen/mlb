@@ -1,0 +1,12 @@
+name: "mlb hall of fame"
+title: "mlb_hall_of_fame"
+description: |
+  mlb_hall_of_fame
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
